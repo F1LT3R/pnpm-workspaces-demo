@@ -3,13 +3,13 @@ importers:
     specifiers: {}
   packages/apps/demo:
     dependencies:
-      '@demo/test': 'link:../../libs/demo/test'
-      '@demo/test2': 'link:../../libs/demo/test2'
+      '@demo/test': 'link:../../libs/test'
+      '@demo/test2': 'link:../../libs/test2'
     specifiers:
       '@demo/test': '*'
       '@demo/test2': '*'
-  packages/libs/demo/test:
+  packages/libs/test:
     specifiers: {}
-  packages/libs/demo/test2:
+  packages/libs/test2:
     specifiers: {}
 lockfileVersion: 5.1
