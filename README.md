@@ -2,7 +2,6 @@
 
 This Repo demonstrates a Monorepo workspaces setup with [PNPM](https://pnpm.js.org/en/workspaces). 
 
-
 ##  Tree
 
 ```plain
@@ -35,21 +34,21 @@ This Repo demonstrates a Monorepo workspaces setup with [PNPM](https://pnpm.js.o
 
 ## The Setup
 
-.npmrc
+File: `.npmrc`
 
 ```
 link-workspace-packages = true
 shared-workspace-shrinkwrap = true
 ```
 
-pnpm-workspace.yaml
+File: `pnpm-workspace.yaml`
 
 ```yaml
 packages:
     - '**'
 ```
 
-
+Recursive install:
 
 ```shell
 ❯ pnpm install -r
