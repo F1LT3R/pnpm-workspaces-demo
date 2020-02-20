@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "name": "@app/demo",
+    "dependencies": {
+        "@demo/test": "*",
+        "@demo/test2": "*"
+    }
+}

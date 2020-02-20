@@ -1,0 +1,15 @@
+importers:
+  .:
+    specifiers: {}
+  packages/apps/demo:
+    dependencies:
+      '@demo/test': 'link:../../libs/demo/test'
+      '@demo/test2': 'link:../../libs/demo/test2'
+    specifiers:
+      '@demo/test': '*'
+      '@demo/test2': '*'
+  packages/libs/demo/test:
+    specifiers: {}
+  packages/libs/demo/test2:
+    specifiers: {}
+lockfileVersion: 5.1
